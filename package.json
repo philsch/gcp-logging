@@ -1,0 +1,26 @@
+{
+  "name": "@philsch/gcp-logging",
+  "version": "0.0.1",
+  "description": "Wrapper for Google Cloud structured logging on stdout",
+  "main": "dist/Logger.js",
+  "types": "dist/Logger.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "author": "Philipp Schmiedel <code@philippschmiedel.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philsch/gcp-logging.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.0",
+    "@typescript-eslint/parser": "^5.36.0",
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.2"
+  }
+}
