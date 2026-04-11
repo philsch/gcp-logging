@@ -1,6 +1,6 @@
 {
   "name": "@philsch/gcp-logging",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for Google Cloud structured logging on stdout",
   "main": "dist/Logger.js",
   "types": "dist/Logger.d.ts",
